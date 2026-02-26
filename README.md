@@ -52,4 +52,5 @@ In addition, the API automation create four scenarios used to verify the signup 
 ## Author
 
 Yoniver Hoyos Muñoz
+
 Industrial Automation Engineer
