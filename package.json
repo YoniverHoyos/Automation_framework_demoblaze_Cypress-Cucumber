@@ -1,0 +1,28 @@
+{
+  "name": "automation_e2e_cypress_tcs",
+  "version": "1.0.0",
+  "description": "E2E automation framework using Cypress + Cucumber (BDD), demoblaze.com",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:smoke": "cypress run --env TAGS='@smoke'",
+    "cy:regression": "cypress run --env TAGS='@regression'"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "automation",
+    "e2e",
+    "testing"
+  ],
+  "author": "Yoniver Hoyos",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.0.0"
+  }
+}
