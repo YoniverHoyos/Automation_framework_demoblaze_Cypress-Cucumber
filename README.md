@@ -30,17 +30,17 @@ In addition, the API automation create four scenarios used to verify the signup 
     	Then User should receive a login error
 
 ## Tech tools
--   Cypress
--   JavaScript
--   Cucumber
--   Mochawesome (optional)
+* Cypress
+* JavaScript
+* Cucumber
+* Mochawesome (optional)
 
 ## Installation and execution
 
 *	The first step in the installation process is clone the repository from GitHub, this can be done following the documentation given for GitHub on https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository 
-*	Install dependencies whit “npm install”
-*	Open Cypress whit “npx cypress open,” this command will execute the cypress open mode where you can click on E2E testing and be able to run the specs for UI and API scenarios. 
-*	Run headless ”npx cypress run”, whit this command you can run both specs in headless mode, but if it is necessary to run the API feature file it is possible to use the “npx cypress run --spec "cypress/e2e/api/apiValidation.feature"” or “npx cypress run --spec “cypress/e2e/purchaseFlow.feature"” for the UI automation.
+*	Install dependencies whit `npm install`
+*	Open Cypress whit `npx cypress open`, this command will execute the cypress open mode where you can click on E2E testing and be able to run the specs for UI and API scenarios. 
+*	Run headless `npx cypress run`, whit this command you can run both specs in headless mode, but if it is necessary to run the API feature file it is possible to use the `npx cypress run --spec "cypress/e2e/api/apiValidation.feature"` or `npx cypress run --spec “cypress/e2e/purchaseFlow.feature"` for the UI automation.
 
 ## Best Practices Applied
 
